@@ -1,0 +1,254 @@
+{
+  "_note": "FICTIONAL example business used only to show the quality bar of the local-business-site-builder skill. No real person, company, number or address.",
+  "meta": {
+    "status": "confirmed",
+    "confirmed_by": "fictional example",
+    "confirmed_on": "2026-10-05"
+  },
+  "business": {
+    "legal_name": "ΔΕΙΓΜΑ ΦΟΥΡΝΟΣ",
+    "short_name": "Φούρνος Δείγμα",
+    "brand_word": "ΦΟΥΡΝΟΣ ΔΕΙΓΜΑ",
+    "tagline": "ΨΩΜΙ ΚΑΙ ΓΛΥΚΑ",
+    "schema_type": "Bakery",
+    "description": "Φούρνος με ψωμί, κουλούρια, πίτες και γλυκά στο κέντρο της Αθήνας. Παραγγελίες και για εκδηλώσεις στο τηλέφωνο.",
+    "short_description": "Φούρνος στο κέντρο της Αθήνας.",
+    "afm": "998877665",
+    "gemi": "998877665544",
+    "phone": "+302105550123",
+    "phone_display": "210 555 0123",
+    "email": "info@fournos-deigma.gr",
+    "address": {
+      "street": "Οδός Δείγμα 12",
+      "locality": "Αθήνα",
+      "postal_code": "11111",
+      "region": "Αττική",
+      "country": "GR"
+    },
+    "geo": {
+      "lat": 37.97945,
+      "lng": 23.72638
+    },
+    "hours": {
+      "mode": "weekly",
+      "weekly": [
+        {
+          "days": [
+            "Mo",
+            "Tu",
+            "We",
+            "Th",
+            "Fr",
+            "Sa"
+          ],
+          "opens": "06:30",
+          "closes": "20:00"
+        },
+        {
+          "days": [
+            "Su"
+          ],
+          "opens": "07:00",
+          "closes": "14:00"
+        }
+      ]
+    },
+    "same_as": [],
+    "footer_blurb": "Ψωμί, κουλούρια, πίτες και γλυκά στο κέντρο της Αθήνας.",
+    "knows_about": [
+      "Ψωμί",
+      "Κουλούρια",
+      "Πίτες",
+      "Γλυκά"
+    ],
+    "offer_catalog_name": "Προϊόντα φούρνου"
+  },
+  "site": {
+    "domain": "fournos-deigma.gr",
+    "lang": "el",
+    "locale": "el_GR",
+    "hosting": "hostinger",
+    "theme_color": "#3b2417",
+    "background_color": "#f6efe3",
+    "seo": {
+      "title": "Φούρνος στο κέντρο της Αθήνας | Φούρνος Δείγμα",
+      "description": "Ψωμί, κουλούρια, πίτες και γλυκά στο κέντρο της Αθήνας, με παραγγελίες για εκδηλώσεις. Καλέστε 210 555 0123.",
+      "og_image_alt": "ΔΕΙΓΜΑ ΦΟΥΡΝΟΣ: ψωμί και γλυκά στο κέντρο της Αθήνας"
+    },
+    "area_served": [
+      {
+        "type": "City",
+        "name": "Αθήνα"
+      }
+    ],
+    "nav": [
+      {
+        "id": "prices",
+        "label": "Ο πίνακας"
+      },
+      {
+        "id": "services",
+        "label": "Τι ψήνουμε"
+      },
+      {
+        "id": "faq",
+        "label": "Ερωτήσεις"
+      },
+      {
+        "id": "contact",
+        "label": "Επικοινωνία"
+      }
+    ],
+    "images": [],
+    "pages": [
+      {
+        "path": "/",
+        "lastmod": "2026-10-05"
+      },
+      {
+        "path": "/privacy.html",
+        "lastmod": "2026-10-05"
+      }
+    ]
+  },
+  "analytics": {
+    "ga4_id": "",
+    "ads": false
+  },
+  "features": {
+    "map": false,
+    "vcard": true,
+    "form": false,
+    "reviews": false,
+    "llms_txt": true
+  },
+  "services": [
+    {
+      "name": "Ψωμί",
+      "description": "Ψωμί χωριάτικο και ψωμί τοστ.",
+      "price_from": 2.8
+    },
+    {
+      "name": "Κουλούρια και πίτες",
+      "description": "Κουλούρια, τυρόπιτες και σπανακόπιτες.",
+      "price_from": 1.6
+    },
+    {
+      "name": "Γλυκά",
+      "description": "Γλυκά της ημέρας, τούρτες κατόπιν παραγγελίας.",
+      "price_from": null
+    },
+    {
+      "name": "Παραγγελίες για εκδηλώσεις",
+      "description": "Ψωμί, πίτες και γλυκά για εκδηλώσεις, με παραγγελία στο τηλέφωνο.",
+      "price_from": null
+    }
+  ],
+  "prices": [
+    {
+      "label": "Ψωμί χωριάτικο",
+      "from": 2.8,
+      "confirmed": true
+    },
+    {
+      "label": "Κουλούρι",
+      "from": 1.6,
+      "confirmed": true
+    }
+  ],
+  "areas": [
+    {
+      "name": "Κέντρο Αθήνας",
+      "towns": [
+        "Κέντρο"
+      ]
+    }
+  ],
+  "claims_confirmed": [
+    "Φρέσκο",
+    "φουρνιά",
+    "Δεν μπορούμε να εγγυηθούμε"
+  ],
+  "design": {
+    "fonts": {
+      "preload": [
+        "/assets/fonts/manrope-greek.woff2",
+        "/assets/fonts/manrope-latin.woff2",
+        "/assets/fonts/brygada-1918-greek.woff2",
+        "/assets/fonts/brygada-1918-latin.woff2"
+      ],
+      "faces": [
+        {
+          "family": "Manrope",
+          "src": "/assets/fonts/manrope-greek.woff2",
+          "weight": "400 800",
+          "unicodeRange": "U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF"
+        },
+        {
+          "family": "Manrope",
+          "src": "/assets/fonts/manrope-latin.woff2",
+          "weight": "400 800",
+          "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+        },
+        {
+          "family": "Brygada 1918",
+          "src": "/assets/fonts/brygada-1918-greek.woff2",
+          "weight": "400 700",
+          "unicodeRange": "U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF"
+        },
+        {
+          "family": "Brygada 1918",
+          "src": "/assets/fonts/brygada-1918-latin.woff2",
+          "weight": "400 700",
+          "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+        }
+      ]
+    },
+    "tokens": {
+      "--color-ink": "#3b2417",
+      "--color-ink-deep": "#2a1810",
+      "--color-text": "#3d2e24",
+      "--color-muted": "#6e5a4b",
+      "--color-paper": "#f6efe3",
+      "--color-paper-alt": "#ece0cd",
+      "--color-surface": "#fffaf1",
+      "--color-line": "#dccdb5",
+      "--color-line-strong": "#b9a587",
+      "--color-link": "#8a3a1c",
+      "--color-call": "#a8441f",
+      "--color-call-hover": "#8f3817",
+      "--color-call-text": "#fff8ee",
+      "--color-on-dark": "#f6efe3",
+      "--color-on-dark-link": "#f0c38a",
+      "--color-focus": "#8a3a1c",
+      "--font-sans": "\"Manrope\", system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif",
+      "--font-serif": "\"Brygada 1918\", Georgia, \"Times New Roman\", serif"
+    },
+    "contrast_pairs": [
+      [
+        "--color-text",
+        "--color-paper"
+      ],
+      [
+        "--color-muted",
+        "--color-paper"
+      ],
+      [
+        "--color-link",
+        "--color-paper"
+      ],
+      [
+        "--color-call-text",
+        "--color-call"
+      ],
+      [
+        "--color-on-dark",
+        "--color-ink"
+      ],
+      [
+        "--color-on-dark-link",
+        "--color-ink-deep"
+      ]
+    ]
+  }
+}

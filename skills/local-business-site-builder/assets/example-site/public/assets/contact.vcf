@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;ΔΕΙΓΜΑ ΦΟΥΡΝΟΣ;;;
+FN:ΔΕΙΓΜΑ ΦΟΥΡΝΟΣ
+ORG:ΔΕΙΓΜΑ ΦΟΥΡΝΟΣ
+TEL;TYPE=CELL,VOICE:+302105550123
+EMAIL;TYPE=INTERNET:info@fournos-deigma.gr
+ADR;TYPE=WORK:;;Οδός Δείγμα 12;Αθήνα;Αττική;11111;Ελλάδα
+URL:https://fournos-deigma.gr/
+NOTE:Φούρνος στο κέντρο της Αθήνας.
+END:VCARD

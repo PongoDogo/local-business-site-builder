@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fournos-deigma.gr/sitemap.xml

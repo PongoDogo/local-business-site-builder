@@ -1,0 +1,61 @@
+{
+  "_example": true,
+  "_comment": "EXAMPLE with fictional data. Copy it to <project>/site-facts.json, replace EVERY value with owner-confirmed facts, delete the _example and _comment keys. Keep this file OUTSIDE the deploy folder. Rules: never invent a value; if the owner has not given it, leave the key out (the audit/scaffold will tell you what is missing).",
+  "meta": { "status": "draft", "confirmed_by": "", "confirmed_on": "" },
+
+  "business": {
+    "legal_name": "ΔΕΙΓΜΑ ΗΛΕΚΤΡΟΛΟΓΟΣ",
+    "short_name": "Δείγμα",
+    "brand_word": "ΔΕΙΓΜΑ",
+    "tagline": "ΗΛΕΚΤΡΟΛΟΓΟΙ 24/7",
+    "schema_type": "Electrician",
+    "description": "Ηλεκτρολογικές βλάβες και εγκαταστάσεις στο Περιστέρι και σε όλη τη Δυτική Αθήνα.",
+    "short_description": "Ηλεκτρολογικές βλάβες 24/7.",
+    "afm": "000000000",
+    "gemi": "000000000000",
+    "phone": "+306900000000",
+    "phone_display": "690 000 0000",
+    "email": "info@example.gr",
+    "address": { "street": "Οδός Δείγμα 1", "locality": "Περιστέρι", "postal_code": "12132", "region": "Αττική", "country": "GR" },
+    "geo": { "lat": 38.0138, "lng": 23.6919 },
+    "hours": { "mode": "weekly", "weekly": [ { "days": ["Mo", "Tu", "We", "Th", "Fr"], "opens": "08:00", "closes": "20:00" } ], "holidays": "Έκτακτες βλάβες κατόπιν συνεννόησης" },
+    "google": { "maps_cid": "", "place_id": "" },
+    "same_as": [],
+    "footer_blurb": "Ηλεκτρολογικές εργασίες σε σπίτια και επιχειρήσεις στη Δυτική Αθήνα.",
+    "knows_about": ["Ηλεκτρολογικές βλάβες", "Πίνακες", "Φωτισμός"]
+  },
+
+  "site": {
+    "domain": "example.gr",
+    "lang": "el",
+    "locale": "el_GR",
+    "hosting": "hostinger",
+    "theme_color": "#1f2a44",
+    "background_color": "#f7f5f0",
+    "hsts_include_subdomains": false,
+    "seo": {
+      "title": "Ηλεκτρολόγος στο Περιστέρι | Δείγμα",
+      "description": "Ηλεκτρολογικές βλάβες και εγκαταστάσεις στο Περιστέρι και στη Δυτική Αθήνα. Καλέστε 690 000 0000.",
+      "og_image_alt": "ΔΕΙΓΜΑ ΗΛΕΚΤΡΟΛΟΓΟΣ, Περιστέρι"
+    },
+    "area_served": [ { "type": "City", "name": "Περιστέρι" }, { "type": "AdministrativeArea", "name": "Αττική" } ],
+    "images": [],
+    "pages": [ { "path": "/", "lastmod": "2026-10-05" }, { "path": "/privacy.html", "lastmod": "2026-10-05" } ]
+  },
+
+  "analytics": { "ga4_id": "", "ads": false },
+  "features": { "map": false, "vcard": true, "form": false, "reviews": false, "youtube": false },
+
+  "services": [
+    { "name": "Εύρεση και αποκατάσταση βλάβης", "description": "Διάγνωση και επισκευή ηλεκτρικών βλαβών.", "price_from": null }
+  ],
+  "prices": [],
+  "areas": [ { "name": "Δυτικά προάστια", "towns": ["Περιστέρι", "Αιγάλεω", "Χαϊδάρι"] } ],
+
+  "claims_confirmed": [],
+  "design": {
+    "fonts": { "preload": [], "faces": [] },
+    "tokens": {},
+    "contrast_pairs": [ ["--color-text", "--color-paper"], ["--color-call-text", "--color-call"], ["--color-on-dark", "--color-ink"] ]
+  }
+}

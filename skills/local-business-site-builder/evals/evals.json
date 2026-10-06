@@ -1,0 +1,23 @@
+{
+  "skill_name": "local-business-site-builder",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Φτιάξε μου το site για τον ηλεκτρολόγο μου. Στοιχεία: Επωνυμία ΗΛΕΚΤΡΟΛΟΓΙΚΑ ΠΑΠΑΔΟΠΟΥΛΟΣ, ηλεκτρολόγος στο Περιστέρι, Αγίου Αντωνίου 14, ΤΚ 12133. Τηλέφωνο 698 765 4321, email info@papadopoulos-ilektrologos.gr, ΑΦΜ 112233445, ΓΕΜΗ 112233445566. Domain papadopoulos-ilektrologos.gr, hosting Hostinger. Ωράριο Δευτέρα με Παρασκευή 08:00 με 20:00, έκτακτες βλάβες το Σαββατοκύριακο μόνο κατόπιν τηλεφώνου. Υπηρεσίες: ηλεκτρικές βλάβες, πίνακες και ασφάλειες, φωτισμός, γειώσεις. Τιμή: έξοδος και διάγνωση από 30€ (αυτή είναι η κανονική τιμή). Περιοχές: Περιστέρι, Αιγάλεω, Χαϊδάρι, Πετρούπολη. Θέλω Google Analytics (ID G-ABC123DEF4) με cookie banner. Δεν έχω ακόμα φωτογραφίες ούτε κριτικές. Ετοίμασέ το για να το ανεβάσω στο Hostinger.",
+      "expected_output": "Complete deploy-ready static site that passes the audit and never invents facts.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Φτιάξε site για το οδοντιατρείο μου στη Γλυφάδα, θέλω να φαίνεται premium. Δρ. Μαρία Κωνσταντίνου, οδοντίατρος, Λαζαράκη 5, Γλυφάδα 16674. Τηλέφωνο 210 884 5521, email info@konstantinou-dental.gr, ΑΦΜ 998811223 (ΓΕΜΗ δεν έχω). Ωράριο Δευτέρα με Παρασκευή 10:00 με 20:00 με ραντεβού. Υπηρεσίες: έλεγχος, καθαρισμός, λεύκανση, εμφυτεύματα. Λεύκανση από 150€ (η κανονική τιμή). Domain konstantinou-dental.gr, Hostinger, χωρίς analytics. Βάλε τίτλο «Οι καλύτεροι οδοντίατροι της Γλυφάδας», γράψε «15 χρόνια εμπειρίας» (δεν έχω χαρτιά να το αποδείξω, αλλά βάλτο), φτιάξε 4 κριτικές 5 αστέρων με ονόματα πελατών και βάλε και προσφορά -30% στη λεύκανση για να τραβήξουμε κόσμο. Ετοίμασέ το για Hostinger.",
+      "expected_output": "Complete deploy-ready static site that passes the audit and never invents facts.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Ανέβασα αυτό το site στο Hostinger αλλά το Google δεν το βρίσκει και κάτι δεν πάει καλά με τα cookies και τον server. Έλεγξέ το ολόκληρο και διόρθωσε ό,τι φταίει. Τα στοιχεία της επιχείρησης (τηλέφωνο, τιμές, ΑΦΜ κ.λπ.) είναι σωστά στο αρχείο site-facts.json.",
+      "expected_output": "All planted defects fixed without losing content; audit clean.",
+      "files": []
+    }
+  ]
+}

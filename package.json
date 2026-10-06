@@ -1,0 +1,13 @@
+{
+  "name": "local-business-site-builder-distribution",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test tests/install.test.mjs",
+    "validate": "node tools/validate_skill.mjs skills/local-business-site-builder",
+    "doctor": "node doctor.mjs",
+    "package": "node tools/package_skill.mjs skills/local-business-site-builder dist/local-business-site-builder.zip"
+  }
+}

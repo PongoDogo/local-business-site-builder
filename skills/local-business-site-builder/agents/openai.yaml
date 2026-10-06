@@ -1,0 +1,6 @@
+interface:
+  display_name: "Local Business Site Builder"
+  short_description: "Build, audit and deploy static websites for local businesses in Greece"
+  default_prompt: "Use $local-business-site-builder to build or audit the website for this local business. Start by collecting the business facts."
+policy:
+  allow_implicit_invocation: true
