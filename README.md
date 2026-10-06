@@ -6,7 +6,7 @@ A portable Agent Skill for building and auditing static websites for local busin
 
 ## Quick install from GitHub
 
-After this repository is published, install with the open-source [skills CLI](https://github.com/vercel-labs/skills):
+Install from this public repository with the open-source [skills CLI](https://github.com/vercel-labs/skills). The current CLI (1.7.0) requires Node 22.20+:
 
 ```sh
 npx skills add PongoDogo/local-business-site-builder --skill local-business-site-builder
@@ -75,7 +75,9 @@ The skill collects verified business facts, proposes a design, builds static HTM
 
 `doctor.mjs` reports missing optional tools and executes the bundled sample audit. It does not install software or contact a hosting account.
 
-**Verified locally:** Windows, Node 24, installer tests, sample audit and scaffold checks. **CI configured:** Windows/macOS/Linux with Node 18/22/24. Those combinations are not marked passed until GitHub Actions actually runs. Agent UI discovery and hosted Claude execution must be checked in their respective products; no universal functionality guarantee is claimed.
+**Verified locally:** Windows, Node 24, installer tests, sample audit and scaffold checks. **CI passed:** all nine Windows/macOS/Linux × Node 18/22/24 combinations in [the release validation run](https://github.com/PongoDogo/local-business-site-builder/actions/runs/37397576940). Agent UI discovery and hosted Claude execution must be checked in their respective products; no universal functionality guarantee is claimed.
+
+Installation from the published GitHub URL was also verified using skills CLI 1.7.0 for project-scoped Codex, Claude Code and Cursor, with full file copies. The installed Codex copy's bundled site audit passed with 0 errors and 0 warnings. See [Εγκατάσταση στα ελληνικά](docs/INSTALL-GR.md).
 
 ## Updates
 
